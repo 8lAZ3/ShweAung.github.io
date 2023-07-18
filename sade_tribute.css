@@ -1,0 +1,60 @@
+body{
+    padding-top: 70px;
+    background-color: black;
+    color: white;
+}
+p{
+    margin: 0;
+}
+h2{
+    margin: 0;
+}
+.topnav{
+    position: fixed;
+    top: 20px;
+    display: flex;
+    height: 50px;
+    width: auto;
+    align-items: center;
+    justify-content: center;
+    opacity: 20%;
+}
+.topnav_banner{
+    position: relative;
+}
+.banner{
+    height: auto;
+    width: 100%;
+}
+.banner_p{
+    font-size: 100px;
+    color: rgba(206, 41, 41, 0.753);
+    position: absolute;
+}
+.briefing_h2{
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    margin-top: 50px;
+}
+.briefing{
+    color: white;
+    margin-left: 15rem;
+    margin-right: 15rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+.briefing_p{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 20px;
+    font-style: italic;
+    margin-top: 20px;
+    line-height: 50px;
+}
+.briefing_pdiv{
+    border-right: 1px white solid;
+}
+
